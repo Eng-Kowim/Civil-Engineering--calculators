@@ -1,5 +1,7 @@
-length = 10
-width = 8
-thickness = 0.15
-volume = length*width*thickness
-print (volume)
+length = float(input("Enter length (m): "))
+width = float(input("Enter width (m): "))
+thickness = float(input("Enter thickness (m): "))
+
+volume = length * width * thickness
+
+print("Concrete volume =", volume, "m³")
